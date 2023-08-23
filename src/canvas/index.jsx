@@ -11,7 +11,7 @@ const CanvasModel = () => {
     <Canvas>
       <ambientLight intensity={0.5} />
       <Environment preset="city" />
-
+      {/* remove camera rig, Backdrop */}
       {/* <CameraRig>
         <Backdrop /> */}
       {/* <Center> */}
